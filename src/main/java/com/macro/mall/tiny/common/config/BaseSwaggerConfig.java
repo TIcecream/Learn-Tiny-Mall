@@ -29,7 +29,7 @@ public abstract class BaseSwaggerConfig {
                 .paths(PathSelectors.any())
                 .build();
         if (swaggerProperties.isEnableSecurity()) {
-            docket.securitySchemes(securitySchemes()).securityContexts(securityContexts());
+            // docket.securitySchemes(securitySchemes()).securityContexts(securityContexts());
         }
         return docket;
     }

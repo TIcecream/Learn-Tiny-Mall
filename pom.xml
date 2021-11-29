@@ -17,13 +17,13 @@
         <docker.maven.plugin.version>1.2.2</docker.maven.plugin.version>
         <druid.version>1.1.10</druid.version>
         <hutool.version>4.5.7</hutool.version>
-        <swagger2.version>2.9.2</swagger2.version>
+        <swagger2.version>3.0.0</swagger2.version>
         <swagger-models.version>1.6.0</swagger-models.version>
         <swagger-annotations.version>1.6.0</swagger-annotations.version>
-        <mysql-connector.version>8.0.16</mysql-connector.version>
+        <mysql-connector.version>8.0.27</mysql-connector.version>
         <jjwt.version>0.9.0</jjwt.version>
         <mybatis-plus.version>3.3.2</mybatis-plus.version>
-        <velocity.version>2.2</velocity.version>
+        <velocity.version>2.3</velocity.version>
     </properties>
 
     <parent>
@@ -117,6 +117,7 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <optional>true</optional>
+            <version>1.18.22</version>
         </dependency>
         <!--SpringBoot配置处理-->
         <dependency>
@@ -142,6 +143,7 @@
             <artifactId>velocity-engine-core</artifactId>
             <version>${velocity.version}</version>
         </dependency>
+
     </dependencies>
 
     <build>
@@ -150,34 +152,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
-            <plugin>
-                <groupId>com.spotify</groupId>
-                <artifactId>docker-maven-plugin</artifactId>
-                <version>${docker.maven.plugin.version}</version>
-                <executions>
-                    <execution>
-                        <id>build-image</id>
-                        <phase>package</phase>
-                        <goals>
-                            <goal>build</goal>
-                        </goals>
-                    </execution>
-                </executions>
-                <configuration>
-                    <imageName>mall-tiny/${project.artifactId}:${project.version}</imageName>
-                    <dockerHost>${docker.host}</dockerHost>
-                    <baseImage>java:8</baseImage>
-                    <entryPoint>["java", "-jar","/${project.build.finalName}.jar"]
-                    </entryPoint>
-                    <resources>
-                        <resource>
-                            <targetPath>/</targetPath>
-                            <directory>${project.build.directory}</directory>
-                            <include>${project.build.finalName}.jar</include>
-                        </resource>
-                    </resources>
-                </configuration>
-            </plugin>
+
         </plugins>
     </build>
 
