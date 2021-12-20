@@ -45,3 +45,4 @@ secure:
       - /actuator/**
       - /druid/**
       - /admin/**
+      - /menu/**
