@@ -10,11 +10,18 @@ spring:
     password: # Redis服务器连接密码（默认为空）
     timeout: 3000ms # 连接超时时间（毫秒）
 
-logging:
-  level:
-    root: info
-    com.macro.mall: debug
+# logging:
+#   level:
+#     root: info
+#     com.macro.mall: debug
 
-mybatis-plus:
-  configuration:
-    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+# mybatis-plus:
+#   configuration:
+#     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+logging:
+  file:
+    path: /Users/bryantian/Project/ServerProj/LearnNew/mall-tiny/mall-tiny/log
+    name: /Users/bryantian/Project/ServerProj/LearnNew/mall-tiny/mall-tiny/log/my.log
+  logback:
+    rollingpolicy.max-file-size: 1MB

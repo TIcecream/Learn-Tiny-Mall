@@ -10,6 +10,8 @@ import com.macro.mall.tiny.modules.ums.model.UmsMenu;
 import com.macro.mall.tiny.modules.ums.service.UmsMenuService;
 
 import org.apache.velocity.util.introspection.UberspectImpl.VelMethodImpl;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -31,7 +33,13 @@ public class PmsProductController {
     public void list() {
         // List<PmsProduct> data = pmsProductService.getAllProducts();
         PmsProduct product = pmsProductService.getById(1L);
+
         System.out.println("end");
+        Logger logger = LoggerFactory.getLogger(PmsProductController.class);
+        logger.info(product.toString());
+        logger.info("test");
+        logger.error("test1");
+
         // UmsMenu umsMenu = umsMenuService.getById(1);
         // PmsProduct p3 = pmsProductService.getWithId(1);
         // QueryWrapper wrapper = new QueryWrapper<>();
