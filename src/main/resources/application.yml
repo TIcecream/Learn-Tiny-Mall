@@ -46,3 +46,5 @@ secure:
       - /druid/**
       - /admin/**
       - /menu/**
+      - /product/**
+      - /resource/**
