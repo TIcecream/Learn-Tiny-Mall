@@ -3,6 +3,7 @@ package com.macro.mall.tiny.modules.pms.service.impl;
 import java.util.List;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.macro.mall.tiny.modules.pms.dto.ProductInsertDTO;
 import com.macro.mall.tiny.modules.pms.mapper.PmsProductMapper;
 import com.macro.mall.tiny.modules.pms.model.PmsProduct;
 import com.macro.mall.tiny.modules.pms.service.PmsProductService;
@@ -20,6 +21,14 @@ public class PmsProductServiceImpl extends ServiceImpl<PmsProductMapper, PmsProd
     @Override
     public PmsProduct getWithId(long id) {
         return this.baseMapper.getWithId(id);
+    }
+
+    @Override
+    public boolean create(ProductInsertDTO productInsertDTO) {
+        PmsProduct product = productInsertDTO;
+        boolean result = this.save(product);
+        System.out.println(result);
+        return true;
     }
 
 

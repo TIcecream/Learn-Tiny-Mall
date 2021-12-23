@@ -2,8 +2,13 @@ package com.macro.mall.tiny.modules.pms.controller;
 
 import java.util.List;
 
+import javax.servlet.http.HttpServletRequest;
+import javax.websocket.server.PathParam;
+
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.macro.mall.tiny.common.api.CommonResult;
+import com.macro.mall.tiny.modules.pms.dto.ProductInsertDTO;
+import com.macro.mall.tiny.modules.pms.dto.TestDTO;
 import com.macro.mall.tiny.modules.pms.model.PmsProduct;
 import com.macro.mall.tiny.modules.pms.service.PmsProductService;
 import com.macro.mall.tiny.modules.ums.model.UmsMenu;
@@ -14,9 +19,12 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
+
+import io.swagger.v3.oas.annotations.parameters.RequestBody;
 
 @Controller
 @RequestMapping("/product")
@@ -25,37 +33,57 @@ public class PmsProductController {
     @Autowired
     private PmsProductService pmsProductService;
 
-    @Autowired
-    private UmsMenuService umsMenuService;
-
     @ResponseBody
     @RequestMapping(value="/list", method = RequestMethod.GET)
-    public void list() {
-        // List<PmsProduct> data = pmsProductService.getAllProducts();
-        PmsProduct product = pmsProductService.getById(1L);
+    public CommonResult list() {
+        List<PmsProduct> products = pmsProductService.list();
+        if (products != null) {
+            return CommonResult.success(products);
+        } else {
+            return CommonResult.failed();
+        }
+    
+    }
 
-        System.out.println("end");
-        Logger logger = LoggerFactory.getLogger(PmsProductController.class);
-        logger.info(product.toString());
-        logger.info("test");
-        logger.error("test1");
+    @ResponseBody
+    @RequestMapping(value="/create", method= RequestMethod.POST)
+    public CommonResult create(@RequestBody ProductInsertDTO productInsertDTO) {
+        boolean result = pmsProductService.create(productInsertDTO);
+        if (result) {
+            return CommonResult.success(true);
+        } else {
+            return CommonResult.failed();
+        }
+    }
 
-        // UmsMenu umsMenu = umsMenuService.getById(1);
-        // PmsProduct p3 = pmsProductService.getWithId(1);
-        // QueryWrapper wrapper = new QueryWrapper<>();
-        // wrapper.lambda().eq(PmsProduct::getId,1);
-        // PmsProduct p2 = pmsProductService.getOne(wrapper);
+    @ResponseBody
+    @RequestMapping(value="/delete/{id}", method = RequestMethod.DELETE)
+    public CommonResult delete(@PathVariable("id") Long id) {
+        boolean result = pmsProductService.removeById(id);
+        if (result) {
+            return CommonResult.success("success");
+        } else {
+            return CommonResult.failed("fail");
+        }
+    }
 
-        // PmsProduct p1 = new PmsProduct();
-        // // p1.setId(2L);
-        // p1.setBrandId(3L);
-        // p1.setProductCategoryId(1L);
-        // p1.setName("test2");
-        // p1.setProductSn("1111");
+    @ResponseBody
+    @RequestMapping(value="/details/{id}", method = RequestMethod.GET)
+    public CommonResult get1(@PathVariable("id") Long id) {
+        PmsProduct pmsProduct = pmsProductService.getById(id);
+        if (pmsProduct != null) {
+            return CommonResult.success(pmsProduct);
+        } else {
+            return CommonResult.failed("fail");
+        }
+    }
 
-        // pmsProductService.save(p1);
-
-        // return CommonResult.success(data);
+    @ResponseBody
+    @RequestMapping(value="/test", method = RequestMethod.POST)
+    public CommonResult test(@RequestBody TestDTO testDTO, @RequestBody String json, HttpServletRequest request) {
+        TestDTO testDTO1 = testDTO;
+        System.out.println("testDTO");
+        return CommonResult.success("true");
     }
     
 }
