@@ -14,7 +14,7 @@ spring:
 #   level:
 #     root: info
 #     com.macro.mall: debug
-
+ 
 # mybatis-plus:
 #   configuration:
 #     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

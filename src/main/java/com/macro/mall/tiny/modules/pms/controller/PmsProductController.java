@@ -8,7 +8,6 @@ import javax.websocket.server.PathParam;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.macro.mall.tiny.common.api.CommonResult;
 import com.macro.mall.tiny.modules.pms.dto.ProductInsertDTO;
-import com.macro.mall.tiny.modules.pms.dto.TestDTO;
 import com.macro.mall.tiny.modules.pms.model.PmsProduct;
 import com.macro.mall.tiny.modules.pms.service.PmsProductService;
 import com.macro.mall.tiny.modules.ums.model.UmsMenu;
@@ -80,8 +79,7 @@ public class PmsProductController {
 
     @ResponseBody
     @RequestMapping(value="/test", method = RequestMethod.POST)
-    public CommonResult test(@RequestBody TestDTO testDTO, @RequestBody String json, HttpServletRequest request) {
-        TestDTO testDTO1 = testDTO;
+    public CommonResult test(@RequestBody String json, HttpServletRequest request) {
         System.out.println("testDTO");
         return CommonResult.success("true");
     }
