@@ -2,7 +2,7 @@ package com.macro.mall.tiny.modules.pms.service;
 
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.macro.mall.tiny.dto.PmsProductCategoryDTO;
-// import com.macro.mall.tiny.dto.ProductCateChildrenDTO;
+import com.macro.mall.tiny.dto.ProductCateChildrenDTO;
 import com.macro.mall.tiny.modules.pms.model.PmsProductCategory;
 import com.baomidou.mybatisplus.extension.service.IService;
 
@@ -37,5 +37,5 @@ public interface PmsProductCategoryService extends IService<PmsProductCategory> 
      * 获取商品一级分类和二级分类的下拉级联数据
      * @return
      */
-    // List<ProductCateChildrenDTO> getWithChildren();
+    List<ProductCateChildrenDTO> getWithChildren();
 }

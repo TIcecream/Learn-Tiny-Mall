@@ -4,7 +4,7 @@ import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.macro.mall.tiny.dto.PmsProductCategoryDTO;
-// import com.macro.mall.tiny.dto.ProductCateChildrenDTO;
+import com.macro.mall.tiny.dto.ProductCateChildrenDTO;
 import com.macro.mall.tiny.modules.pms.model.PmsProductCategory;
 import com.macro.mall.tiny.modules.pms.mapper.PmsProductCategoryMapper;
 // import com.macro.mall.tiny.modules.pms.model.PmsProductCategoryAttributeRelation;
@@ -155,10 +155,9 @@ public class PmsProductCategoryServiceImpl extends ServiceImpl<PmsProductCategor
      * @return
      */
     // @Override
-    // public List<ProductCateChildrenDTO> getWithChildren() {
-    //     // return productCategoryMapper.getWithChildren();
-    //     return new List<ProductCateChildrenDTO>();
-    // }
+    public List<ProductCateChildrenDTO> getWithChildren() {
+        return productCategoryMapper.getWithChildren();
+    }
 
 
 }

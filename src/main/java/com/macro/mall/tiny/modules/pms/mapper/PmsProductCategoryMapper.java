@@ -1,6 +1,6 @@
 package com.macro.mall.tiny.modules.pms.mapper;
 
-// import com.macro.mall.tiny.dto.ProductCateChildrenDTO;
+import com.macro.mall.tiny.dto.ProductCateChildrenDTO;
 import com.macro.mall.tiny.modules.pms.model.PmsProductCategory;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
@@ -20,5 +20,5 @@ public interface PmsProductCategoryMapper extends BaseMapper<PmsProductCategory>
      * 获取商品一级分类和二级分类的下拉级联数据
      * @return
      */
-    // List<ProductCateChildrenDTO> getWithChildren();
+    List<ProductCateChildrenDTO> getWithChildren();
 }

@@ -1,10 +1,9 @@
-package com.macro.mall.tiny.modules.pms.controller;
+package com.macro.mall.tiny.dto;
 
 
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.macro.mall.tiny.common.api.CommonPage;
 import com.macro.mall.tiny.common.api.CommonResult;
-import com.macro.mall.tiny.dto.PmsProductCategoryDTO;
 import com.macro.mall.tiny.modules.pms.model.PmsProductCategory;
 import com.macro.mall.tiny.modules.pms.service.PmsProductCategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -146,12 +145,12 @@ public class PmsProductCategoryController {
      *   url:'/productCategory/list/withChildren',
      *     method:'get'
      */
-    // @RequestMapping("/list/withChildren")
-    // public  CommonResult getWithChildren(){
-    //     List<ProductCateChildrenDTO> list= productCategoryService.getWithChildren();
+    @RequestMapping("/list/withChildren")
+    public  CommonResult getWithChildren(){
+        List<ProductCateChildrenDTO> list= productCategoryService.getWithChildren();
 
-    //     return CommonResult.success(list);
-    // }
+        return CommonResult.success(list);
+    }
 
 }
 
