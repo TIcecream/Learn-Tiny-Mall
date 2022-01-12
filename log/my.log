@@ -1,170 +1,57 @@
-2022-01-06 00:02:27.083  INFO 7712 --- [lettuce-eventExecutorLoop-1-8] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 00:02:27.115  INFO 7712 --- [lettuce-nioEventLoop-4-9] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 00:07:28.090  INFO 7712 --- [lettuce-eventExecutorLoop-1-9] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 00:07:28.109  INFO 7712 --- [lettuce-nioEventLoop-4-10] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 02:11:20.842  INFO 7712 --- [lettuce-eventExecutorLoop-1-10] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 02:11:21.039  INFO 7712 --- [lettuce-nioEventLoop-4-11] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 08:00:04.455  INFO 7712 --- [lettuce-eventExecutorLoop-1-11] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 08:00:04.482  INFO 7712 --- [lettuce-nioEventLoop-4-12] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 09:39:40.873  INFO 7712 --- [lettuce-eventExecutorLoop-1-1] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 09:39:50.093  INFO 7712 --- [lettuce-nioEventLoop-4-1] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 09:44:51.152  INFO 7712 --- [lettuce-eventExecutorLoop-1-12] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 09:44:51.170  INFO 7712 --- [lettuce-nioEventLoop-4-2] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 09:49:52.151  INFO 7712 --- [lettuce-eventExecutorLoop-1-2] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 09:49:52.159  INFO 7712 --- [lettuce-nioEventLoop-4-3] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 09:54:53.144  INFO 7712 --- [lettuce-eventExecutorLoop-1-3] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 09:54:53.153  INFO 7712 --- [lettuce-nioEventLoop-4-4] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 09:59:54.154  INFO 7712 --- [lettuce-eventExecutorLoop-1-4] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 09:59:54.159  INFO 7712 --- [lettuce-nioEventLoop-4-5] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 10:04:55.157  INFO 7712 --- [lettuce-eventExecutorLoop-1-5] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 10:04:55.166  INFO 7712 --- [lettuce-nioEventLoop-4-6] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 10:09:56.056  INFO 7712 --- [lettuce-eventExecutorLoop-1-6] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 10:09:56.062  INFO 7712 --- [lettuce-nioEventLoop-4-7] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 10:14:57.165  INFO 7712 --- [lettuce-eventExecutorLoop-1-7] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 10:14:57.171  INFO 7712 --- [lettuce-nioEventLoop-4-8] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 10:19:58.063  INFO 7712 --- [lettuce-eventExecutorLoop-1-8] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 10:19:58.066  INFO 7712 --- [lettuce-nioEventLoop-4-9] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 10:24:59.157  INFO 7712 --- [lettuce-eventExecutorLoop-1-9] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 10:24:59.165  INFO 7712 --- [lettuce-nioEventLoop-4-10] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 10:30:00.072  INFO 7712 --- [lettuce-eventExecutorLoop-1-10] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 10:30:00.076  INFO 7712 --- [lettuce-nioEventLoop-4-11] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 10:35:01.169  INFO 7712 --- [lettuce-eventExecutorLoop-1-11] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 10:35:01.174  INFO 7712 --- [lettuce-nioEventLoop-4-12] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 10:40:02.170  INFO 7712 --- [lettuce-eventExecutorLoop-1-1] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 10:40:02.174  INFO 7712 --- [lettuce-nioEventLoop-4-1] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 10:45:03.082  INFO 7712 --- [lettuce-eventExecutorLoop-1-12] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 10:45:03.086  INFO 7712 --- [lettuce-nioEventLoop-4-2] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 10:50:04.075  INFO 7712 --- [lettuce-eventExecutorLoop-1-2] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 10:50:04.083  INFO 7712 --- [lettuce-nioEventLoop-4-3] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 10:55:05.079  INFO 7712 --- [lettuce-eventExecutorLoop-1-3] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 10:55:05.083  INFO 7712 --- [lettuce-nioEventLoop-4-4] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 10:59:43.041  INFO 7712 --- [http-nio-9091-exec-2] c.m.m.t.s.c.JwtAuthenticationTokenFilter : checking username:tiantong
-2022-01-06 10:59:43.094  INFO 7712 --- [http-nio-9091-exec-2] c.m.m.t.s.c.JwtAuthenticationTokenFilter : authenticated user:tiantong
-2022-01-06 11:04:44.084  INFO 7712 --- [lettuce-eventExecutorLoop-1-7] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 11:04:44.093  INFO 7712 --- [lettuce-nioEventLoop-4-5] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 11:09:45.088  INFO 7712 --- [lettuce-eventExecutorLoop-1-8] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 11:09:45.092  INFO 7712 --- [lettuce-nioEventLoop-4-6] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 11:14:46.096  INFO 7712 --- [lettuce-eventExecutorLoop-1-9] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 11:14:46.101  INFO 7712 --- [lettuce-nioEventLoop-4-7] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 11:19:47.092  INFO 7712 --- [lettuce-eventExecutorLoop-1-10] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 11:19:47.098  INFO 7712 --- [lettuce-nioEventLoop-4-8] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 11:24:48.098  INFO 7712 --- [lettuce-eventExecutorLoop-1-11] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 11:24:48.105  INFO 7712 --- [lettuce-nioEventLoop-4-9] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 11:29:49.110  INFO 7712 --- [lettuce-eventExecutorLoop-1-1] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 11:29:49.116  INFO 7712 --- [lettuce-nioEventLoop-4-10] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 11:34:50.115  INFO 7712 --- [lettuce-eventExecutorLoop-1-12] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 11:34:50.122  INFO 7712 --- [lettuce-nioEventLoop-4-11] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 11:39:51.116  INFO 7712 --- [lettuce-eventExecutorLoop-1-2] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 11:39:51.120  INFO 7712 --- [lettuce-nioEventLoop-4-12] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 11:44:52.128  INFO 7712 --- [lettuce-eventExecutorLoop-1-3] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 11:44:52.134  INFO 7712 --- [lettuce-nioEventLoop-4-1] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 11:49:53.125  INFO 7712 --- [lettuce-eventExecutorLoop-1-4] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 11:49:53.131  INFO 7712 --- [lettuce-nioEventLoop-4-2] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 11:54:54.127  INFO 7712 --- [lettuce-eventExecutorLoop-1-5] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 11:54:54.133  INFO 7712 --- [lettuce-nioEventLoop-4-3] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 11:59:55.037  INFO 7712 --- [lettuce-eventExecutorLoop-1-6] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 11:59:55.046  INFO 7712 --- [lettuce-nioEventLoop-4-4] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 12:04:56.139  INFO 7712 --- [lettuce-eventExecutorLoop-1-7] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 12:04:56.144  INFO 7712 --- [lettuce-nioEventLoop-4-5] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 12:09:57.137  INFO 7712 --- [lettuce-eventExecutorLoop-1-8] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 12:09:57.142  INFO 7712 --- [lettuce-nioEventLoop-4-6] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 12:14:58.047  INFO 7712 --- [lettuce-eventExecutorLoop-1-9] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 12:14:58.051  INFO 7712 --- [lettuce-nioEventLoop-4-7] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 12:19:59.041  INFO 7712 --- [lettuce-eventExecutorLoop-1-10] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 12:19:59.049  INFO 7712 --- [lettuce-nioEventLoop-4-8] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 12:25:00.145  INFO 7712 --- [lettuce-eventExecutorLoop-1-11] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 12:25:00.149  INFO 7712 --- [lettuce-nioEventLoop-4-9] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 12:30:01.052  INFO 7712 --- [lettuce-eventExecutorLoop-1-1] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 12:30:01.056  INFO 7712 --- [lettuce-nioEventLoop-4-10] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 14:45:38.989  INFO 7712 --- [lettuce-eventExecutorLoop-1-12] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 14:45:39.064  INFO 7712 --- [lettuce-nioEventLoop-4-11] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 14:50:40.118  INFO 7712 --- [lettuce-eventExecutorLoop-1-2] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 14:50:40.151  INFO 7712 --- [lettuce-nioEventLoop-4-12] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 14:55:41.120  INFO 7712 --- [lettuce-eventExecutorLoop-1-3] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 14:55:41.132  INFO 7712 --- [lettuce-nioEventLoop-4-1] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 15:00:42.117  INFO 7712 --- [lettuce-eventExecutorLoop-1-4] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 15:00:42.123  INFO 7712 --- [lettuce-nioEventLoop-4-2] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 15:05:43.122  INFO 7712 --- [lettuce-eventExecutorLoop-1-5] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 15:05:43.126  INFO 7712 --- [lettuce-nioEventLoop-4-3] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 15:10:44.125  INFO 7712 --- [lettuce-eventExecutorLoop-1-6] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 15:10:44.129  INFO 7712 --- [lettuce-nioEventLoop-4-4] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 15:15:45.122  INFO 7712 --- [lettuce-eventExecutorLoop-1-7] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 15:15:45.129  INFO 7712 --- [lettuce-nioEventLoop-4-5] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 15:20:46.127  INFO 7712 --- [lettuce-eventExecutorLoop-1-8] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 15:20:46.131  INFO 7712 --- [lettuce-nioEventLoop-4-6] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 15:25:47.130  INFO 7712 --- [lettuce-eventExecutorLoop-1-9] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 15:25:47.134  INFO 7712 --- [lettuce-nioEventLoop-4-7] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 15:30:48.131  INFO 7712 --- [lettuce-eventExecutorLoop-1-10] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 15:30:48.136  INFO 7712 --- [lettuce-nioEventLoop-4-8] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 15:35:49.137  INFO 7712 --- [lettuce-eventExecutorLoop-1-11] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 15:35:49.143  INFO 7712 --- [lettuce-nioEventLoop-4-9] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 15:40:50.136  INFO 7712 --- [lettuce-eventExecutorLoop-1-1] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 15:40:50.143  INFO 7712 --- [lettuce-nioEventLoop-4-10] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 15:45:51.139  INFO 7712 --- [lettuce-eventExecutorLoop-1-12] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 15:45:51.144  INFO 7712 --- [lettuce-nioEventLoop-4-11] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 15:50:52.042  INFO 7712 --- [lettuce-eventExecutorLoop-1-2] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 15:50:52.046  INFO 7712 --- [lettuce-nioEventLoop-4-12] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 15:55:53.046  INFO 7712 --- [lettuce-eventExecutorLoop-1-3] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 15:55:53.052  INFO 7712 --- [lettuce-nioEventLoop-4-1] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 16:00:54.146  INFO 7712 --- [lettuce-eventExecutorLoop-1-4] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 16:00:54.150  INFO 7712 --- [lettuce-nioEventLoop-4-2] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 16:05:55.157  INFO 7712 --- [lettuce-eventExecutorLoop-1-5] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 16:05:55.167  INFO 7712 --- [lettuce-nioEventLoop-4-3] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 16:10:56.157  INFO 7712 --- [lettuce-eventExecutorLoop-1-6] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 16:10:56.164  INFO 7712 --- [lettuce-nioEventLoop-4-4] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 16:15:57.166  INFO 7712 --- [lettuce-eventExecutorLoop-1-7] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 16:15:57.170  INFO 7712 --- [lettuce-nioEventLoop-4-5] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 16:20:58.173  INFO 7712 --- [lettuce-eventExecutorLoop-1-8] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 16:20:58.178  INFO 7712 --- [lettuce-nioEventLoop-4-6] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 16:25:59.175  INFO 7712 --- [lettuce-eventExecutorLoop-1-9] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 16:25:59.181  INFO 7712 --- [lettuce-nioEventLoop-4-7] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 16:31:00.179  INFO 7712 --- [lettuce-eventExecutorLoop-1-10] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 16:31:00.184  INFO 7712 --- [lettuce-nioEventLoop-4-8] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 16:36:01.087  INFO 7712 --- [lettuce-eventExecutorLoop-1-11] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 16:36:01.096  INFO 7712 --- [lettuce-nioEventLoop-4-9] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 16:41:02.096  INFO 7712 --- [lettuce-eventExecutorLoop-1-1] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 16:41:02.101  INFO 7712 --- [lettuce-nioEventLoop-4-10] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 16:46:02.098  INFO 7712 --- [lettuce-eventExecutorLoop-1-12] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 16:46:02.103  INFO 7712 --- [lettuce-nioEventLoop-4-11] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 16:51:03.105  INFO 7712 --- [lettuce-eventExecutorLoop-1-2] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 16:51:03.109  INFO 7712 --- [lettuce-nioEventLoop-4-12] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 16:56:04.108  INFO 7712 --- [lettuce-eventExecutorLoop-1-3] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 16:56:04.114  INFO 7712 --- [lettuce-nioEventLoop-4-1] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 17:01:05.111  INFO 7712 --- [lettuce-eventExecutorLoop-1-4] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 17:01:05.118  INFO 7712 --- [lettuce-nioEventLoop-4-2] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 17:06:06.022  INFO 7712 --- [lettuce-eventExecutorLoop-1-5] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 17:06:06.028  INFO 7712 --- [lettuce-nioEventLoop-4-3] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 17:11:07.126  INFO 7712 --- [lettuce-eventExecutorLoop-1-6] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 17:11:07.130  INFO 7712 --- [lettuce-nioEventLoop-4-4] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 17:16:08.127  INFO 7712 --- [lettuce-eventExecutorLoop-1-7] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 17:16:08.133  INFO 7712 --- [lettuce-nioEventLoop-4-5] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 17:21:09.138  INFO 7712 --- [lettuce-eventExecutorLoop-1-8] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 17:21:09.168  INFO 7712 --- [lettuce-nioEventLoop-4-6] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 17:26:10.144  INFO 7712 --- [lettuce-eventExecutorLoop-1-9] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 17:26:10.147  INFO 7712 --- [lettuce-nioEventLoop-4-7] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 17:31:11.147  INFO 7712 --- [lettuce-eventExecutorLoop-1-10] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 17:31:11.150  INFO 7712 --- [lettuce-nioEventLoop-4-8] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 17:36:12.057  INFO 7712 --- [lettuce-eventExecutorLoop-1-11] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 17:36:12.062  INFO 7712 --- [lettuce-nioEventLoop-4-9] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 17:41:13.060  INFO 7712 --- [lettuce-eventExecutorLoop-1-1] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 17:41:13.067  INFO 7712 --- [lettuce-nioEventLoop-4-10] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 18:16:34.988  INFO 7712 --- [lettuce-eventExecutorLoop-1-12] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 18:16:34.991  INFO 7712 --- [lettuce-nioEventLoop-4-11] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 18:43:42.116  INFO 7712 --- [lettuce-eventExecutorLoop-1-2] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 18:43:42.126  INFO 7712 --- [lettuce-nioEventLoop-4-12] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 18:48:42.122  INFO 7712 --- [lettuce-eventExecutorLoop-1-3] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 18:48:42.129  INFO 7712 --- [lettuce-nioEventLoop-4-1] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 18:53:43.126  INFO 7712 --- [lettuce-eventExecutorLoop-1-4] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 18:53:43.130  INFO 7712 --- [lettuce-nioEventLoop-4-2] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 18:58:44.129  INFO 7712 --- [lettuce-eventExecutorLoop-1-5] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 18:58:44.135  INFO 7712 --- [lettuce-nioEventLoop-4-3] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 19:03:45.141  INFO 7712 --- [lettuce-eventExecutorLoop-1-6] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 19:03:45.146  INFO 7712 --- [lettuce-nioEventLoop-4-4] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 19:08:46.141  INFO 7712 --- [lettuce-eventExecutorLoop-1-7] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 19:08:46.146  INFO 7712 --- [lettuce-nioEventLoop-4-5] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 19:13:47.148  INFO 7712 --- [lettuce-eventExecutorLoop-1-8] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 19:13:47.173  INFO 7712 --- [lettuce-nioEventLoop-4-6] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 19:18:48.049  INFO 7712 --- [lettuce-eventExecutorLoop-1-9] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 19:18:48.056  INFO 7712 --- [lettuce-nioEventLoop-4-7] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
-2022-01-06 19:23:49.144  INFO 7712 --- [lettuce-eventExecutorLoop-1-10] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
-2022-01-06 19:23:49.152  INFO 7712 --- [lettuce-nioEventLoop-4-8] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
+2022-01-12 14:30:24.211  INFO 82713 --- [main] com.macro.mall.tiny.MallTinyApplication  : Starting MallTinyApplication on BRYANTIAN-MB28 with PID 82713 (/Users/bryantian/Project/ServerProj/LearnNew/mall-tiny/mall-tiny/target/classes started by bryantian in /Users/bryantian/Project/ServerProj/LearnNew/mall-tiny/mall-tiny)
+2022-01-12 14:30:24.222  INFO 82713 --- [main] com.macro.mall.tiny.MallTinyApplication  : The following profiles are active: dev
+2022-01-12 14:30:25.697  INFO 82713 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-01-12 14:30:25.700  INFO 82713 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-01-12 14:30:25.751  INFO 82713 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31ms. Found 0 Redis repository interfaces.
+2022-01-12 14:30:26.437  INFO 82713 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@51ac12ac' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-12 14:30:26.444  INFO 82713 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-12 14:30:26.849  INFO 82713 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9091 (http)
+2022-01-12 14:30:26.860  INFO 82713 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-12 14:30:26.861  INFO 82713 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2022-01-12 14:30:26.951  INFO 82713 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-12 14:30:26.952  INFO 82713 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2675 ms
+2022-01-12 14:30:27.355  INFO 82713 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-01-12 14:30:27.618  INFO 82713 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-01-12 14:30:29.093  WARN 82713 --- [main] c.m.m.t.s.c.DynamicSecurityFilter        : Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2022-01-12 14:30:29.775  INFO 82713 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-01-12 14:30:29.944  INFO 82713 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6130a6f5, org.springframework.security.web.context.SecurityContextPersistenceFilter@32f45e15, org.springframework.security.web.header.HeaderWriterFilter@7c07023, org.springframework.security.web.authentication.logout.LogoutFilter@219a2203, com.macro.mall.tiny.security.component.JwtAuthenticationTokenFilter@3f9e8af5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5ef7ae2f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@524dd373, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3fb0d9de, org.springframework.security.web.session.SessionManagementFilter@f13e0a2, org.springframework.security.web.access.ExceptionTranslationFilter@5d373794, com.macro.mall.tiny.security.component.DynamicSecurityFilter@1382a7d8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@430db481]
+2022-01-12 14:30:30.098  INFO 82713 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-12 14:30:30.434  INFO 82713 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9091 (http) with context path ''
+2022-01-12 14:30:30.956  INFO 82713 --- [main] com.macro.mall.tiny.MallTinyApplication  : Started MallTinyApplication in 7.242 seconds (JVM running for 8.132)
+2022-01-12 14:57:47.163  INFO 82713 --- [http-nio-9091-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-12 14:57:47.164  INFO 82713 --- [http-nio-9091-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-12 14:57:47.201  INFO 82713 --- [http-nio-9091-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 36 ms
+2022-01-12 14:57:47.329  INFO 82713 --- [http-nio-9091-exec-3] c.m.m.t.s.c.JwtAuthenticationTokenFilter : checking username:admin_01
+2022-01-12 14:57:47.711  INFO 82713 --- [http-nio-9091-exec-3] c.m.m.t.s.c.JwtAuthenticationTokenFilter : authenticated user:admin_01
+2022-01-12 14:57:47.793  INFO 82713 --- [http-nio-9091-exec-4] c.m.m.t.s.c.JwtAuthenticationTokenFilter : checking username:admin_01
+2022-01-12 14:57:47.800  INFO 82713 --- [http-nio-9091-exec-4] c.m.m.t.s.c.JwtAuthenticationTokenFilter : authenticated user:admin_01
+2022-01-12 14:57:47.999  INFO 82713 --- [http-nio-9091-exec-7] c.m.m.t.s.c.JwtAuthenticationTokenFilter : checking username:admin_01
+2022-01-12 14:57:48.003  INFO 82713 --- [http-nio-9091-exec-8] c.m.m.t.s.c.JwtAuthenticationTokenFilter : checking username:admin_01
+2022-01-12 14:57:48.008  INFO 82713 --- [http-nio-9091-exec-7] c.m.m.t.s.c.JwtAuthenticationTokenFilter : authenticated user:admin_01
+2022-01-12 14:57:48.011  INFO 82713 --- [http-nio-9091-exec-8] c.m.m.t.s.c.JwtAuthenticationTokenFilter : authenticated user:admin_01
+2022-01-12 14:57:51.029  INFO 82713 --- [http-nio-9091-exec-10] c.m.m.t.s.c.JwtAuthenticationTokenFilter : checking username:admin_01
+2022-01-12 14:57:51.044  INFO 82713 --- [http-nio-9091-exec-10] c.m.m.t.s.c.JwtAuthenticationTokenFilter : authenticated user:admin_01
+2022-01-12 14:57:57.746  INFO 82713 --- [http-nio-9091-exec-4] c.m.m.t.s.c.JwtAuthenticationTokenFilter : checking username:admin_01
+2022-01-12 14:57:57.746  INFO 82713 --- [http-nio-9091-exec-3] c.m.m.t.s.c.JwtAuthenticationTokenFilter : checking username:admin_01
+2022-01-12 14:57:57.753  INFO 82713 --- [http-nio-9091-exec-4] c.m.m.t.s.c.JwtAuthenticationTokenFilter : authenticated user:admin_01
+2022-01-12 14:57:57.754  INFO 82713 --- [http-nio-9091-exec-3] c.m.m.t.s.c.JwtAuthenticationTokenFilter : authenticated user:admin_01
+2022-01-12 14:58:48.289  INFO 82713 --- [http-nio-9091-exec-6] c.m.m.t.s.c.JwtAuthenticationTokenFilter : checking username:admin_01
+2022-01-12 14:58:48.294  INFO 82713 --- [http-nio-9091-exec-6] c.m.m.t.s.c.JwtAuthenticationTokenFilter : authenticated user:admin_01
+2022-01-12 14:59:51.318  INFO 82713 --- [http-nio-9091-exec-9] c.m.m.t.s.c.JwtAuthenticationTokenFilter : checking username:admin_01
+2022-01-12 14:59:51.324  INFO 82713 --- [http-nio-9091-exec-9] c.m.m.t.s.c.JwtAuthenticationTokenFilter : authenticated user:admin_01
+2022-01-12 14:59:51.733  INFO 82713 --- [http-nio-9091-exec-3] c.m.m.t.s.c.JwtAuthenticationTokenFilter : checking username:admin_01
+2022-01-12 14:59:51.734  INFO 82713 --- [http-nio-9091-exec-1] c.m.m.t.s.c.JwtAuthenticationTokenFilter : checking username:admin_01
+2022-01-12 14:59:51.741  INFO 82713 --- [http-nio-9091-exec-3] c.m.m.t.s.c.JwtAuthenticationTokenFilter : authenticated user:admin_01
+2022-01-12 14:59:51.741  INFO 82713 --- [http-nio-9091-exec-1] c.m.m.t.s.c.JwtAuthenticationTokenFilter : authenticated user:admin_01
+2022-01-12 15:00:09.186  INFO 82713 --- [http-nio-9091-exec-5] c.m.m.t.s.c.JwtAuthenticationTokenFilter : checking username:admin_01
+2022-01-12 15:00:09.189  INFO 82713 --- [http-nio-9091-exec-5] c.m.m.t.s.c.JwtAuthenticationTokenFilter : authenticated user:admin_01
+2022-01-12 15:00:11.510  INFO 82713 --- [http-nio-9091-exec-6] c.m.m.t.s.c.JwtAuthenticationTokenFilter : checking username:admin_01
+2022-01-12 15:00:11.520  INFO 82713 --- [http-nio-9091-exec-6] c.m.m.t.s.c.JwtAuthenticationTokenFilter : authenticated user:admin_01
+2022-01-12 15:00:14.795  INFO 82713 --- [http-nio-9091-exec-9] c.m.m.t.s.c.JwtAuthenticationTokenFilter : checking username:admin_01
+2022-01-12 15:00:14.799  INFO 82713 --- [http-nio-9091-exec-9] c.m.m.t.s.c.JwtAuthenticationTokenFilter : authenticated user:admin_01
+2022-01-12 15:00:15.118  INFO 82713 --- [http-nio-9091-exec-2] c.m.m.t.s.c.JwtAuthenticationTokenFilter : checking username:admin_01
+2022-01-12 15:00:15.123  INFO 82713 --- [http-nio-9091-exec-2] c.m.m.t.s.c.JwtAuthenticationTokenFilter : authenticated user:admin_01
+2022-01-12 15:00:21.164  INFO 82713 --- [http-nio-9091-exec-3] c.m.m.t.s.c.JwtAuthenticationTokenFilter : checking username:admin_01
+2022-01-12 15:00:21.168  INFO 82713 --- [http-nio-9091-exec-3] c.m.m.t.s.c.JwtAuthenticationTokenFilter : authenticated user:admin_01
+2022-01-12 15:00:21.190  INFO 82713 --- [http-nio-9091-exec-4] c.m.m.t.s.c.JwtAuthenticationTokenFilter : checking username:admin_01
+2022-01-12 15:00:21.194  INFO 82713 --- [http-nio-9091-exec-4] c.m.m.t.s.c.JwtAuthenticationTokenFilter : authenticated user:admin_01
