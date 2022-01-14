@@ -1,4 +1,4 @@
-package com.macro.mall.tiny.modules.pms.dto;
+package com.macro.mall.tiny.dto;
 
 import com.macro.mall.tiny.modules.pms.model.PmsProductCategory;
 import io.swagger.annotations.ApiModel;

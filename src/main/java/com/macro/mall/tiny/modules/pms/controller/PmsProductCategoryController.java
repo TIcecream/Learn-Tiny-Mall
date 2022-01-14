@@ -1,7 +1,9 @@
-package com.macro.mall.tiny.dto;
+package com.macro.mall.tiny.modules.pms.controller;
 
 
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.macro.mall.tiny.dto.PmsProductCategoryDTO;
+import com.macro.mall.tiny.dto.ProductCateChildrenDTO;
 import com.macro.mall.tiny.common.api.CommonPage;
 import com.macro.mall.tiny.common.api.CommonResult;
 import com.macro.mall.tiny.modules.pms.model.PmsProductCategory;
@@ -93,7 +95,6 @@ public class PmsProductCategoryController {
      */
     @RequestMapping(value="/create",method = RequestMethod.POST)
     public CommonResult create(@RequestBody PmsProductCategoryDTO productCategoryDTO){
-
         boolean result = productCategoryService.CustomSave(productCategoryDTO);
         if(result){
             return CommonResult.success(result);
