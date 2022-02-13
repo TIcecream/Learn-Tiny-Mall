@@ -137,3 +137,5 @@
 2022-01-14 15:04:46.109  INFO 80229 --- [lettuce-nioEventLoop-4-11] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
 2022-01-14 15:09:47.109  INFO 80229 --- [lettuce-eventExecutorLoop-1-12] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
 2022-01-14 15:09:47.116  INFO 80229 --- [lettuce-nioEventLoop-4-12] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
+2022-01-14 15:14:48.111  INFO 80229 --- [lettuce-eventExecutorLoop-1-2] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6379
+2022-01-14 15:14:48.117  INFO 80229 --- [lettuce-nioEventLoop-4-1] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6379
